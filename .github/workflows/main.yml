@@ -3,8 +3,8 @@ name: HelloWorld
 on: [push]
 
 jobs:
-  echo
+  echo:
     runs-on: ubuntu-latest
     steps:
-      -name: hello
+      - name: hello
         run: echo "Hello, Github Actions!"
